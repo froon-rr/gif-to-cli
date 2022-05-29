@@ -42,27 +42,3 @@ elif len(sys.argv) == 4:
 
 elif len(sys.argv) == 5:
     gifToCli(sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), sys.argv[4])
-# def iter_frames(im):
-#     try:
-#         i= 0
-#         while 1:
-#             im.seek(i)
-#             print(img.tell())
-#             imframe = im.copy()
-#             if i == 0:
-#                 palette = imframe.getpalette()
-#             else:
-#                 imframe.putpalette(palette)
-#             yield imframe
-#             i += 1
-#     except EOFError:
-#         pass
-#
-#
-#
-# for i, frame in enumerate(iter_frames(img)):
-    # for col in range(frame.size[1]):
-    #     for row in range(frame.size[0]):
-    #         # print(img.getpixel((row, col)))
-    #         print(color_front('#', img.getpixel((row, col))), end='')
-    #     print()
